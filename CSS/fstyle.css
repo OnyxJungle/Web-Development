@@ -1,0 +1,98 @@
+header, footer {
+   font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+   color: #C0B283;
+   background-color: #373737;
+   text-align: center;
+   display: block;
+}
+header {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+   margin-top: -2em;
+}
+h1{
+	font-size: 4.5em;
+	color: #C0B283;
+	text-shadow: 2px 2px black;
+}
+
+footer {
+   font-size: .75em;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+nav{
+   margin-top: 10em;
+   margin-bottom: 2%;
+}
+
+/** Nav Styles **/
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/** end Nav **/
+
+/**Start Flex Columns**/
+
+.flex{
+	display:flex;
+	width: 100%;
+}
+.flex1{
+	flex: 1 1 50%;
+	border-style: solid;
+	border-width: 2px;
+	margin: 5px 2px;
+	padding: 5px;
+}
+.flex2{
+	flex: 1 2 50%;
+	border-style: solid;
+	border-width: 2px;
+	margin: 5px 2px;
+	padding: 5px;
+   text-align: center;
+}
+/** end Flex **/
+
+.share{
+   font-weight: bold;
+   font-size: 75%;
+   height: 2.5em;
+   background: linear-gradient(rgba(255, 255, 255, .5), rgba(153, 153, 153, .9));
+   border: 1px solid rgba(0, 0, 0, .5);
+   border-radius: 4em;
+   text-indent: 1em;
+   padding: 3px;
+}
+
+a:link{
+	color: #DCD0C0;
+	text-decoration: none;
+}
+a:visited{
+	color: #DCD0C0;
+}
+a:hover{
+	color: rgb(255,255,204);
+}
